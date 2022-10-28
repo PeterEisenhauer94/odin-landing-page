@@ -157,3 +157,12 @@ a, a:visited{
     border-radius: 8px;
     border-color:white;
 }
+
+#footer{
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
