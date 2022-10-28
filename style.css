@@ -2,13 +2,19 @@
     background-color: #1F2937;
 }
 .header-logo-text{
-    color: #f9faf8;
+    color: #F9FAF8;
     font-size: 24px;
     font-weight:800;
 }
 .secondary-text{
     font-size: 18px;
-    color:#E5e7eb;
+    color:#E5E7EB;
+}
+.hero-main-text{
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight:800;
+    
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -40,16 +46,38 @@ a, a:visited{
 }
 #section1{
     display: flex;
+    align-items:center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
+}
+#section1 p{
+    margin:0;
 }
 #section1-1{
     display:flex;
     flex-direction: column;
+    margin-left: 20%;
+    max-width: 20%;
+    
+    
+    
 }
 #section1 img{
     height: 200px;
-    width: auto;
+    width: 400px;
+    margin-right: 20%;
+    padding-left: 85%;
     
+}
+#section1 button{
+    width: 80px;
+    margin-top:20px;
+    padding:5px 10px 5px 10px;
+    border-radius: 6px;
+    background-color:#3882F6;
+    color: white;
+    font-weight: 800;
 }
 #section2{
     display: flex;
