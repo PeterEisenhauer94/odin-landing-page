@@ -24,6 +24,10 @@
     font-weight:800;
 
 }
+.action-text{
+    color:white;
+    font-size:24px;
+}
 .rectangle{
     border: solid;
     border-color:#3882F6;
@@ -129,9 +133,27 @@ a, a:visited{
 }
 #section4{
     display:flex;
-    align-items:center;
-    margin:0% 20% 0% 20%;
+    align-items: center;
+    justify-content:center;
+    background-color:#3882F6;
+    margin:5% 10% 5% 10%;
+    padding:3% 10% 3% 10%;
+    gap: 10%;
+    border-radius:20px;
+
 }
 #section4-1{
     flex-direction:column;
+}
+#section4 p{
+    margin:0;
+}
+#section4 button{
+    font-weight: 800;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 8px 30px 8px 30px;
+    border:solid;
+    border-radius: 8px;
+    border-color:white;
 }
